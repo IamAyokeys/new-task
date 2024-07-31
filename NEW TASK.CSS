@@ -1,0 +1,471 @@
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* overflow-x: hidden; */
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0eb582;
+}
+
+
+nav ul li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+
+
+nav ul li a:hover{
+    color: gray;
+}
+
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 3;
+  }
+  
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+
+.section1{
+    background-image: linear-gradient(rgba(10, 58, 58,.8), rgba(5, 44, 44,.8)), url(new-section.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+
+.section1-text{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+
+.quotes a{
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  position: relative;
+  bottom: 40px;
+  float: left;
+  background-color: #0eb582;
+}
+
+.quote1{
+  width: 40%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin: 10px;
+  padding: 10px;
+  text-align: right;
+  background-image: linear-gradient(90deg,#ffffff 0%,#48D2A8 100%);
+}
+
+.quote2{
+  width: 15%;
+  margin: 10px;
+  border-radius: 40px;
+  background-image: linear-gradient(90deg,#48D2A8 0%,#48D2A8 100%);
+}
+
+.quote3{
+  width: 13%;
+  margin: 10px;
+  border-radius: 40px;
+  background-image: linear-gradient(90deg,#48D2A8 0%,#48D2A8 100%);
+}
+
+.section2{
+  background-color: #ffffff;
+  /* padding: 100px; */
+}
+
+ul{
+  list-style: none;
+}
+
+.section2-text{
+  text-align: center;
+  /* background-color: rgb(112, 122, 131); */
+}
+
+
+.section2-images ul{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  bottom: 150px;
+}
+
+
+
+.section2-text h6{
+  font-size: 70px;
+  opacity: .8;
+  color: #fafafa;
+  font-family: 'Share Tech',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 500;
+}
+
+.section2-text h1{
+  font-family: 'Share Tech',Helvetica,Arial,Lucida,sans-serif;
+  font-size: 48px;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+  bottom: 200px;
+}
+
+/* .section2-images figure{
+  padding: 10%;
+  margin: 20px;
+  width: fit-content;
+} */
+
+
+.figure1{
+  background-color: #ff8a3d;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.figure2{
+  background-color: #f1f1f1;
+  padding: 10px;
+  color: #333333;
+}
+
+.figure3{
+  background-color: #ffffff;
+  border: 1px solid #d7dce1;
+  padding: 15px;
+  color: #333333;
+}
+
+
+.figure4{
+  background-color: #ffffff;
+  border: 1px solid #d7dce1;
+  padding: 20px;
+  color: #333333;
+}
+
+.figure5{
+  background-color: #15314e;
+  padding: 15px;
+  color: #ffffff;
+}
+
+.figure6{
+  background-color: #ffa727;
+  padding: 15px;
+  color: #ffffff;
+}
+
+
+.section3{
+  display: flex;
+  justify-content: center;
+}
+
+.section3-text{
+  text-align: justify;
+  width: 50%;
+  padding: 10px;
+}
+
+.section3-text h1{
+  font-size: 70px;
+  opacity: .8;
+  color: #fafafa;
+  font-family: 'Share Tech',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 500;
+}
+
+.section3-text h6{
+  font-size: 50px;
+  color: #333333;
+  font-family: 'Share Tech',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 500;
+}
+
+
+.section3-body{
+  font-size: 100%;
+  color: #333333;
+  font-family: 'Share Tech',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 500;
+  position: relative;
+  bottom: 20px;
+}
+
+.section3-image{
+  position: relative;
+  top: 250px;
+}
+
+
+.section4{
+  display: flex;
+  background: linear-gradient(rgba(10, 58, 58,.9), rgba(5, 44, 44,.9)), url(new-section.jpg);
+  background-position: center;
+  background-size: cover;
+  border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  width: 90%;
+}
+
+  
+.section4-text{
+  padding: 70px;
+  text-align: justify;
+  font-family: 'Share Tech',Helvetica,Arial,Lucida,sans-serif;
+  font-size: 20px;
+  line-height: 1.2em;
+  color: #f0fff9;
+}
+
+
+.get-started{
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(90deg,#48D2A8 0%,#48D2A8 100%);
+  padding: 14px;
+  border-radius: 40px;
+}
+
+
+.section5{
+  background-image: linear-gradient(
+      180deg
+      ,#ffffff 0%,#edf0f2 100%);
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+
+
+.section5-text{
+  padding: 50px 50px 50px 50px;
+  text-align: justify;
+}
+
+.section5-images{
+  width: 70%;
+}
+
+
+.section5-images ul{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+
+}
+
+
+
+.section5-images .icon1{
+  width: 150px;
+  height: 80px;
+  letter-spacing: 5px;
+  background-image: linear-gradient(180deg,#2573f9 0%,rgba(37,115,249,0.73) 100%),url(../images/07-img-13.jpg);
+  border-radius: 200px 200px 200px 200px;
+  padding: 30px 30px 30px 30px;
+  justify-content: center;
+}
+
+.section5-images .icon2{
+width: 150px;
+height: 80px;
+letter-spacing: 5px;
+background-image: linear-gradient(180deg,#d3d3d3 0%,rgba(233, 235, 240, 0.73) 100%),url(../images/07-img-13.jpg);
+border-radius: 200px 200px 200px 200px;
+padding: 30px 30px 30px 30px;
+justify-content: center;
+
+}
+
+.section5-images .icon3{
+width: 150px;
+height: 80px;
+letter-spacing: 5px;
+background-color: #ff8a3d;
+border-radius: 200px 200px 200px 200px;
+padding: 30px 30px 30px 30px;
+justify-content: center;
+
+}
+
+
+.section5-images .icon4{
+width: 300px;
+height: 100px;
+letter-spacing: 5px;
+background-color: #15314e;
+border-radius: 200px 200px 200px 200px;
+padding: 30px 30px 30px 30px;
+justify-content: center;
+
+}
+
+
+.section5-images .icon5{
+width: 280px;
+height: 100px;
+letter-spacing: 5px;
+background-image: linear-gradient(
+  270deg
+  ,rgba(37,115,249,0.74) 0%,#b0d9f2 100%),url(../images/07-it-services-02.jpg);
+border-radius: 200px 200px 200px 200px;
+padding: 30px 30px 30px 30px;
+justify-content: center;
+
+}
+
+
+
+
+.testimonials ul{
+    display: flex;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.first-testimony{
+    background-color: #ff8a3d;
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    color: #ffffff;
+}
+
+
+.second-testimony{
+  background-color: #f1f1f1;
+  width: 50%;
+  padding: 20px;
+  margin: 10px;
+  color: #666666;
+}
+
+
+.third-testimony{
+  background-color: #ffffff;
+  border: 1px solid #d0d5db;
+  color: #666666;
+  width: 50%;
+  padding: 20px;
+  margin: 10px;
+}
+
+
+.last-testimony{
+  color: white;
+  background-color: #15314e;
+  width: 50%;
+  padding: 20px;
+  margin: 10px;
+}
+
+
+.testimonials h1{
+  font-size: 80px;
+  opacity: 1;
+  color: #fafafa;
+  font-family: 'Share Tech',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 500;
+}
+
+
+.testimonials h4{
+  font-size: 50px;
+  color: #333333;
+  font-family: 'Share Tech',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 500;
+  position: relative;
+  bottom: 80px;
+}
+
+
+
+.section6{
+  background-color: #004945 ;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  /* padding: 20px; */
+  /* margin: 20px; */
+}
+
+.section6 h1{
+  font-size: 50px;
+  opacity: 1;
+  color: #fafafa;
+  font-family: 'Share Tech',Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 500;
+}
+
+
+form{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+input{
+  padding: 10px;
+  letter-spacing: 3px;
+  color: white;
+}
+
+
+.footer{
+  background-color: #171717;
+  position: relative;
+  bottom: 0px;
+  padding: 20px;
+}
+
+
+
+.footer{
+  color: #666666;
+}
+
